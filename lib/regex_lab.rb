@@ -19,7 +19,7 @@ text.scan(/^un[a-z]+ing$/)
 
 
 def words_five_letters_long(text)
-  text.scan(/\w{5}/)
+  text.scan(/ [A-Za-z]{5} /)
 end
 
 
